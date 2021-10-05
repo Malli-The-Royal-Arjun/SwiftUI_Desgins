@@ -1,0 +1,16 @@
+PODS:
+  - SwiftUICardStack (0.0.5)
+
+DEPENDENCIES:
+  - SwiftUICardStack
+
+SPEC REPOS:
+  trunk:
+    - SwiftUICardStack
+
+SPEC CHECKSUMS:
+  SwiftUICardStack: 61238438719132abd9190208728b447bff3d1333
+
+PODFILE CHECKSUM: 3cdaa99dda730b6ce0b9fe2430561559c0ffbaf7
+
+COCOAPODS: 1.10.1

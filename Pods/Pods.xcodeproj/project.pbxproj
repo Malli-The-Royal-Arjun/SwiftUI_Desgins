@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2013176DB788C119C5C1FB2B64B92C60 /* CardSwipeDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD23238BB3B336513A40F23AD06F0AA /* CardSwipeDirection.swift */; };
+		43C5772411C9DFFF388A217E4FE8C75A /* SwiftUICardStack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4AFFAF5E2F059A84CC9F09ADAE6443 /* SwiftUICardStack-dummy.m */; };
+		72F5A168E248648B0FD8E4E0AF47494A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64D18724BC842A263831C75F31904A3 /* CardView.swift */; };
+		7B72FA1E7F0F081910C5A2AA9EC4F4F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7B736CAF4BE1554E4E15372D095281F3 /* SwiftUICardStack-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85B0D82861716748CF3FFB41610410C2 /* SwiftUICardStack-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BA84579B3F9AEA742DA65D39175CB27 /* CardStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B143943ACDCFC998486AE83CD369C1D7 /* CardStack.swift */; };
+		A273DABA428416B5709798BE46A9E81C /* Pods-All Desgins-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE719A9497C1AB0E2F55BD4B27DF410 /* Pods-All Desgins-dummy.m */; };
+		CA9098983C9132F6DB4779ED08EFF361 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E19ACADC553D65F68681B2196AEE9D5F /* CardStackConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22E50FFBE1064B61B671077023E26E0 /* CardStackConfiguration.swift */; };
+		F09F1723C222A4C76D0A30864948882A /* Pods-All Desgins-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5161C791E2740F7ED066094CCA832B74 /* Pods-All Desgins-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EF4C68143F5E8FFD60D878140C8D7B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE7FE07602712794CCDB634D7DFA4ADF;
+			remoteInfo = SwiftUICardStack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09BE8633BF87B4F313363E4A64AFE14A /* Pods-All Desgins-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-All Desgins-frameworks.sh"; sourceTree = "<group>"; };
+		1FD23238BB3B336513A40F23AD06F0AA /* CardSwipeDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardSwipeDirection.swift; path = Sources/CardStack/CardSwipeDirection.swift; sourceTree = "<group>"; };
+		2E7583779976FFE5CF86805D82952287 /* SwiftUICardStack-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftUICardStack-Info.plist"; sourceTree = "<group>"; };
+		3080B608810044739984512245C948EF /* SwiftUICardStack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftUICardStack-prefix.pch"; sourceTree = "<group>"; };
+		3160B7E34B231AF435E7809218BD7648 /* Pods-All Desgins-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-All Desgins-Info.plist"; sourceTree = "<group>"; };
+		367785E8E74770E6DDD2F6C58153BCF0 /* Pods-All Desgins-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-All Desgins-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4C4AFFAF5E2F059A84CC9F09ADAE6443 /* SwiftUICardStack-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftUICardStack-dummy.m"; sourceTree = "<group>"; };
+		5161C791E2740F7ED066094CCA832B74 /* Pods-All Desgins-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-All Desgins-umbrella.h"; sourceTree = "<group>"; };
+		5D8A495F1C5D0EF6B849B05E9479D4D1 /* SwiftUICardStack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftUICardStack.release.xcconfig; sourceTree = "<group>"; };
+		5EEE66BF1ECDBF7859FAC411BC0ADD92 /* Pods-All Desgins.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-All Desgins.release.xcconfig"; sourceTree = "<group>"; };
+		675D84C75D4E21BAE4D8D22E6351B9E0 /* Pods-All Desgins.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-All Desgins.debug.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		85B0D82861716748CF3FFB41610410C2 /* SwiftUICardStack-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftUICardStack-umbrella.h"; sourceTree = "<group>"; };
+		8A331D0132FC507769CF18C7A2B0F67E /* SwiftUICardStack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftUICardStack.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A464BDE1C75F9250B56C67DD7CC6D402 /* SwiftUICardStack.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftUICardStack.modulemap; sourceTree = "<group>"; };
+		AFE719A9497C1AB0E2F55BD4B27DF410 /* Pods-All Desgins-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-All Desgins-dummy.m"; sourceTree = "<group>"; };
+		B143943ACDCFC998486AE83CD369C1D7 /* CardStack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardStack.swift; path = Sources/CardStack/CardStack.swift; sourceTree = "<group>"; };
+		C500BD9BCEA2F85B7CBE9FF7587FDAAD /* Pods-All Desgins.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-All Desgins.modulemap"; sourceTree = "<group>"; };
+		D22E50FFBE1064B61B671077023E26E0 /* CardStackConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardStackConfiguration.swift; path = Sources/CardStack/CardStackConfiguration.swift; sourceTree = "<group>"; };
+		D729081434424ADCA0156269C3D8AAB6 /* Pods-All Desgins-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-All Desgins-acknowledgements.plist"; sourceTree = "<group>"; };
+		E720695C1AAF670215187D0FE6F67D10 /* Pods_All_Desgins.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_All_Desgins.framework; path = "Pods-All Desgins.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F64D18724BC842A263831C75F31904A3 /* CardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardView.swift; path = Sources/CardStack/CardView.swift; sourceTree = "<group>"; };
+		F6F969430F3EC010AA3A9AA0A844CE57 /* CardStack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CardStack.framework; path = SwiftUICardStack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C33B1334A46F1D6348423C8D3D2266E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA9098983C9132F6DB4779ED08EFF361 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7BD35ECE0A01D5B2CF6EDB75945426F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B72FA1E7F0F081910C5A2AA9EC4F4F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22335776AF0AE63BD893185B50010C0C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A464BDE1C75F9250B56C67DD7CC6D402 /* SwiftUICardStack.modulemap */,
+				4C4AFFAF5E2F059A84CC9F09ADAE6443 /* SwiftUICardStack-dummy.m */,
+				2E7583779976FFE5CF86805D82952287 /* SwiftUICardStack-Info.plist */,
+				3080B608810044739984512245C948EF /* SwiftUICardStack-prefix.pch */,
+				85B0D82861716748CF3FFB41610410C2 /* SwiftUICardStack-umbrella.h */,
+				8A331D0132FC507769CF18C7A2B0F67E /* SwiftUICardStack.debug.xcconfig */,
+				5D8A495F1C5D0EF6B849B05E9479D4D1 /* SwiftUICardStack.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftUICardStack";
+			sourceTree = "<group>";
+		};
+		2A83BCD5CF2FF64DAEF5AA1848126310 /* SwiftUICardStack */ = {
+			isa = PBXGroup;
+			children = (
+				B143943ACDCFC998486AE83CD369C1D7 /* CardStack.swift */,
+				D22E50FFBE1064B61B671077023E26E0 /* CardStackConfiguration.swift */,
+				1FD23238BB3B336513A40F23AD06F0AA /* CardSwipeDirection.swift */,
+				F64D18724BC842A263831C75F31904A3 /* CardView.swift */,
+				22335776AF0AE63BD893185B50010C0C /* Support Files */,
+			);
+			name = SwiftUICardStack;
+			path = SwiftUICardStack;
+			sourceTree = "<group>";
+		};
+		4897C686D52E390E5DAAB1D81DA4FA4C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				68233A43220C36E309AAA6AEFBEB4BF8 /* Pods-All Desgins */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		666361856AF7E21BCA9F2BE1AAA656A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A83BCD5CF2FF64DAEF5AA1848126310 /* SwiftUICardStack */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		68233A43220C36E309AAA6AEFBEB4BF8 /* Pods-All Desgins */ = {
+			isa = PBXGroup;
+			children = (
+				C500BD9BCEA2F85B7CBE9FF7587FDAAD /* Pods-All Desgins.modulemap */,
+				367785E8E74770E6DDD2F6C58153BCF0 /* Pods-All Desgins-acknowledgements.markdown */,
+				D729081434424ADCA0156269C3D8AAB6 /* Pods-All Desgins-acknowledgements.plist */,
+				AFE719A9497C1AB0E2F55BD4B27DF410 /* Pods-All Desgins-dummy.m */,
+				09BE8633BF87B4F313363E4A64AFE14A /* Pods-All Desgins-frameworks.sh */,
+				3160B7E34B231AF435E7809218BD7648 /* Pods-All Desgins-Info.plist */,
+				5161C791E2740F7ED066094CCA832B74 /* Pods-All Desgins-umbrella.h */,
+				675D84C75D4E21BAE4D8D22E6351B9E0 /* Pods-All Desgins.debug.xcconfig */,
+				5EEE66BF1ECDBF7859FAC411BC0ADD92 /* Pods-All Desgins.release.xcconfig */,
+			);
+			name = "Pods-All Desgins";
+			path = "Target Support Files/Pods-All Desgins";
+			sourceTree = "<group>";
+		};
+		B4638A8BF8B830BDA5EB7C67A3DB4ACB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6F969430F3EC010AA3A9AA0A844CE57 /* CardStack.framework */,
+				E720695C1AAF670215187D0FE6F67D10 /* Pods_All_Desgins.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				666361856AF7E21BCA9F2BE1AAA656A3 /* Pods */,
+				B4638A8BF8B830BDA5EB7C67A3DB4ACB /* Products */,
+				4897C686D52E390E5DAAB1D81DA4FA4C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2F253F09D72425CC77C4821CE28CF42C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B736CAF4BE1554E4E15372D095281F3 /* SwiftUICardStack-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A561B4A4DF7C9692B2E8F7E6B8104A69 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09F1723C222A4C76D0A30864948882A /* Pods-All Desgins-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AE7FE07602712794CCDB634D7DFA4ADF /* SwiftUICardStack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3ECD869D13E35AE21308488D9B447E3 /* Build configuration list for PBXNativeTarget "SwiftUICardStack" */;
+			buildPhases = (
+				2F253F09D72425CC77C4821CE28CF42C /* Headers */,
+				3AC2AF7CAED37153E62A8D9411A3013B /* Sources */,
+				4C33B1334A46F1D6348423C8D3D2266E /* Frameworks */,
+				A273BBCFA59E980917CCEAF1339C3D1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftUICardStack;
+			productName = SwiftUICardStack;
+			productReference = F6F969430F3EC010AA3A9AA0A844CE57 /* CardStack.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C2B2B327CB952D8F5B48131A3701B51C /* Pods-All Desgins */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 147899BEA5B25493F3C40CFF7394133C /* Build configuration list for PBXNativeTarget "Pods-All Desgins" */;
+			buildPhases = (
+				A561B4A4DF7C9692B2E8F7E6B8104A69 /* Headers */,
+				16C8AC9AEC972532B7B4F3EB24B1F788 /* Sources */,
+				E7BD35ECE0A01D5B2CF6EDB75945426F /* Frameworks */,
+				A12AAD521BBD0DCACA6DBB9A615719D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				709CD3EB874FA0AF748BD6F21CC5CF3F /* PBXTargetDependency */,
+			);
+			name = "Pods-All Desgins";
+			productName = "Pods-All Desgins";
+			productReference = E720695C1AAF670215187D0FE6F67D10 /* Pods_All_Desgins.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B4638A8BF8B830BDA5EB7C67A3DB4ACB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2B2B327CB952D8F5B48131A3701B51C /* Pods-All Desgins */,
+				AE7FE07602712794CCDB634D7DFA4ADF /* SwiftUICardStack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A12AAD521BBD0DCACA6DBB9A615719D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A273BBCFA59E980917CCEAF1339C3D1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16C8AC9AEC972532B7B4F3EB24B1F788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A273DABA428416B5709798BE46A9E81C /* Pods-All Desgins-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AC2AF7CAED37153E62A8D9411A3013B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BA84579B3F9AEA742DA65D39175CB27 /* CardStack.swift in Sources */,
+				E19ACADC553D65F68681B2196AEE9D5F /* CardStackConfiguration.swift in Sources */,
+				2013176DB788C119C5C1FB2B64B92C60 /* CardSwipeDirection.swift in Sources */,
+				72F5A168E248648B0FD8E4E0AF47494A /* CardView.swift in Sources */,
+				43C5772411C9DFFF388A217E4FE8C75A /* SwiftUICardStack-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		709CD3EB874FA0AF748BD6F21CC5CF3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftUICardStack;
+			target = AE7FE07602712794CCDB634D7DFA4ADF /* SwiftUICardStack */;
+			targetProxy = 5EF4C68143F5E8FFD60D878140C8D7B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E5DA2984EA014A101012D39A6020AD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D8A495F1C5D0EF6B849B05E9479D4D1 /* SwiftUICardStack.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftUICardStack/SwiftUICardStack-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftUICardStack/SwiftUICardStack-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftUICardStack/SwiftUICardStack.modulemap";
+				PRODUCT_MODULE_NAME = CardStack;
+				PRODUCT_NAME = CardStack;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3761BBA90A842F51653CC1B5C98ED354 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EEE66BF1ECDBF7859FAC411BC0ADD92 /* Pods-All Desgins.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-All Desgins/Pods-All Desgins-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-All Desgins/Pods-All Desgins.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		54392492BA4D67201469F564AB891CC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 675D84C75D4E21BAE4D8D22E6351B9E0 /* Pods-All Desgins.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-All Desgins/Pods-All Desgins-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-All Desgins/Pods-All Desgins.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5764616310D7DF47047C581BDB0259D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A331D0132FC507769CF18C7A2B0F67E /* SwiftUICardStack.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftUICardStack/SwiftUICardStack-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftUICardStack/SwiftUICardStack-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftUICardStack/SwiftUICardStack.modulemap";
+				PRODUCT_MODULE_NAME = CardStack;
+				PRODUCT_NAME = CardStack;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71243899B61152433AAE34EE86456EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		75D70EEEA0A456E14F7338A7F342964E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		147899BEA5B25493F3C40CFF7394133C /* Build configuration list for PBXNativeTarget "Pods-All Desgins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54392492BA4D67201469F564AB891CC6 /* Debug */,
+				3761BBA90A842F51653CC1B5C98ED354 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D70EEEA0A456E14F7338A7F342964E /* Debug */,
+				71243899B61152433AAE34EE86456EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3ECD869D13E35AE21308488D9B447E3 /* Build configuration list for PBXNativeTarget "SwiftUICardStack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5764616310D7DF47047C581BDB0259D3 /* Debug */,
+				1E5DA2984EA014A101012D39A6020AD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
